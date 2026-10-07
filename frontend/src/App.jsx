@@ -51,14 +51,14 @@ function App(){
 
     return (
         <div className="app">
-            <h1>Lorem ipsum dolor sit amet.</h1>
+            <h1>SIMPLE FULL STACK APPLICATION</h1>
 
-            <button
+            {/* <button
                 className="counter-button"
                 onClick ={()=>setCount(count+1)}
             >
                 Click Me
-            </button>
+            </button> */}
 
             <Productlist products={products}></Productlist>
         </div>
