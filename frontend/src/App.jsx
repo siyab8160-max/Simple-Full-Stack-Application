@@ -38,7 +38,7 @@ function App(){
     useEffect(()=>{
         async function APIcall() {
             console.log("inside async function");
-            let response = await fetch("http://localhost:3000/api/products");
+            let response = await fetch("https://simple-full-stack-application.onrender.com/api/products");
 
             let data = await response.json();
             console.log(data);
